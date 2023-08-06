@@ -1,0 +1,10 @@
+compatibility_date = "2023-07-14"
+main = "src/index.js"
+name = "dq-data"
+
+kv_namespaces = [
+  {binding = "qdb", id = "9ec256118f56484e8d2c96c745e73a3e", preview_id = "2d0b282b4e5d4d3b8a19f0bad1538bd1"},
+]
+
+[triggers]
+crons = ["0 */4 * * *"]

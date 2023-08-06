@@ -1,0 +1,14 @@
+{
+  "name": "dq-data",
+  "version": "0.0.0",
+  "main": "./src/index.js",
+  "devDependencies": {
+    "wrangler": "3.2.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "dev": "miniflare -w",
+    "deploy": "wrangler deploy"
+  }
+}
